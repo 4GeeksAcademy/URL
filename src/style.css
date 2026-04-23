@@ -1,5 +1,39 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
-}
+    body {
+      background: #0f172a;
+      color: white;
+    }
+
+    .card-box {
+      width: 220px;
+      height: 320px;
+      border-radius: 15px;
+      background: white;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 15px;
+      margin: auto;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+      transition: opacity 0.3s ease;
+    }
+
+    .fade {
+      opacity: 0;
+    }
+
+    .palorandom {
+      font-size: 2rem;
+    }
+
+    .numeros {
+      font-size: 3rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .rotated {
+      transform: rotate(180deg);
+    }
